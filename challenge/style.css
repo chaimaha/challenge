@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-color: rgb(30, 100, 240);
+  background-image: url(/challenge/podcast-block_brush.png);
+  background-repeat: no-repeat;
+  background-position-x: 300px;
+}
+
+header {
+  display: flex;
+  padding: 5%;
+  margin: 0% 5%;
+  flex-direction: row;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation img {
+  padding: 0% 2%;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.navigation ul li {
+  color: white;
+  padding: 0% 2%;
+  list-style-type: none;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.white {
+  background-color: white;
+  color: blue;
+  border-radius: 8%;
+  padding: 1% 2%;
+}
+.blue {
+  background-color: blue;
+  color: white;
+  border-radius: 8%;
+  padding: 1% 2%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 1% 5%;
+  color: white;
+}
+.white2 {
+  background-color: white;
+  color: red;
+  border-radius: 8%;
+  padding: 1% 2%;
+}
+.red {
+  background-color: red;
+  color: white;
+  border-radius: 8%;
+  padding: 1% 2%;
+}
+h1 {
+  font-size: 1.5rem;
+  word-spacing: 6px;
+  padding: 2%;
+  margin: 1%;
+}
+p {
+  line-height: 1.5;
+  word-spacing: 3px;
+  padding: 2%;
+  margin: 1%;
+}
+.writing {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+iframe {
+  margin: 5%;
+}
+.buttons2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
